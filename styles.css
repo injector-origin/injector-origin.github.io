@@ -1,3 +1,10 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling for body */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -9,12 +16,14 @@ body {
     min-height: 100vh;
 }
 
+/* Container styling */
 .container {
     width: 80%;
     margin: auto;
     overflow: hidden;
 }
 
+/* Header styling */
 header {
     background: #333;
     color: #fff;
@@ -26,20 +35,21 @@ header h1 {
     margin: 0;
 }
 
+/* Main section styling */
 main {
     flex: 1;
     padding: 20px 0;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-footer {
-    background: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-    position: relative;
-    width: 100%;
+/* Section headings */
+h2, h3 {
+    color: #0056b3;
 }
 
+/* Links styling */
 a {
     color: #1e90ff;
     text-decoration: none;
@@ -49,6 +59,7 @@ a:hover {
     text-decoration: underline;
 }
 
+/* List styling */
 ul {
     list-style: none;
     padding: 0;
@@ -56,4 +67,14 @@ ul {
 
 ul li {
     margin: 10px 0;
+}
+
+/* Footer styling */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
 }
