@@ -4,52 +4,131 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Injector Origin</title>
+    <link rel="icon" href="images/app-icon.png" type="image/png">
+    <link rel="stylesheet" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
     <link rel="stylesheet" href="styles.css">
-    <meta name="description" content="This app enhances your Mobile Legends: Bang Bang (MLBB) gaming experience by unlocking and upgrading visual skins and battle effects. It's designed to provide an enriched visual experience without affecting gameplay.">
-    <meta name="keywords" content="Mobile Legends, MLBB, skins, battle effects, game enhancements, Injector Origin">
-    <meta name="author" content="Injector Origin Team">
 </head>
 <body>
     <header>
-        <div class="container">
-            <h1>Injector Origin</h1>
-            <p>This app enhances your Mobile Legends: Bang Bang (MLBB) gaming experience by unlocking and upgrading visual skins and battle effects. It's designed to provide an enriched visual experience without affecting gameplay.</p>
-        </div>
+        <h1>Injector Origin</h1>
+        <nav role="navigation" aria-label="Main Navigation">
+            <ul>
+                <li><a href="#home" aria-label="Go to Home" tabindex="0">Home</a></li>
+                <li><a href="#features" aria-label="View Features" tabindex="0">Features</a></li>
+                <li><a href="#contact" aria-label="Contact Us" tabindex="0">Contact</a></li>
+            </ul>
+        </nav>
     </header>
     <main class="container">
-        <section>
-            <h2>Features</h2>
-            <ul>
-                <li>Unlock Upgrade/Skins: Access a variety of visual skins for your favorite Mobile Legends: Bang Bang (MLBB) heroes.</li>
-                <li>Unlock Battle Effects: Enhance your visual experience with unique battle effects.</li>
-                <li>Hero Details & Tips: Get detailed information and tips for various heroes to improve your gameplay and strategy.</li>
-                <li>Search Functionality: Easily search for your favorite heroes, skins, battle effects, and many more.</li>
-                <li>Theme Options: Provide different themes for the app to match users' preferences.</li>
-                <li>Feedback and Suggestions: Implement a feature for users to submit feedback and suggestions directly within the app.</li>
-            </ul>
+        <section id="home" class="main-content">
+            <div class="mdc-card" aria-labelledby="welcome-title" aria-describedby="welcome-description">
+                <h2 id="welcome-title" class="mdc-card__title">Welcome to Injector Origin</h2>
+                <div id="welcome-description" class="mdc-card__content">
+                    <p>Discover endless possibilities with Injector Origin. Access exclusive hero skins, battle effects, and expert hero guides, all within a seamless, user-friendly interface. Take your Mobile Legends: Bang Bang gameplay to the next level with Injector Origin!</p>
+                    <button class="mdc-button mdc-button--raised" id="learn-more-btn" aria-haspopup="dialog">Learn More</button>
+                </div>
+            </div>
+            <div class="carousel" aria-label="Image Carousel">
+                <button class="carousel-btn prev" aria-label="Previous Slide">&lt;</button>
+                <div class="carousel-images" role="list">
+                    <img src="images/carousel-image1.jpg" alt="Carousel Image 1" loading="lazy">
+                    <img src="images/carousel-image2.jpg" alt="Carousel Image 2" loading="lazy">
+                </div>
+                <button class="carousel-btn next" aria-label="Next Slide">&gt;</button>
+            </div>
         </section>
-        <section>
-            <h2>Contact Us</h2>
-            <p>For any questions, feedback, or support, please reach out to us at <a href="mailto:injector.origin@gmail.com">injector.origin@gmail.com</a>.</p>
-        </section>
-        <section>
-            <h2>About Us</h2>
-            <p>Injector Origin is committed to enhancing your Mobile Legends: Bang Bang experience by providing visual upgrades and detailed hero information. We value Moonton’s work and encourage users to support them through official channels.</p>
-        </section>
-        <section>
-            <h2>Privacy Policy</h2>
-            <p>Your privacy is important to us. Learn more about how we handle your data in our <a href="docs/privacy-policy.html">Privacy Policy</a>.</p>
-        </section>
-        <section>
-            <h2>Download the App</h2>
-            <p>Start enhancing your Mobile Legends: Bang Bang experience today! <a href="https://play.google.com/store/apps/details?id=com.elfilibustero.origin" target="_blank">Download Injector Origin from Google Play</a>.</p>
+        <section id="features" class="features-section">
+            <div class="container">
+                <h2 class="section-title">Features</h2>
+                <div class="features-container">
+                    <div class="feature-card">
+                        <h3 class="feature-title">Unlock Skins</h3>
+                        <p class="feature-description">Access a wide range of skins for your favorite heroes, enhancing your gameplay with unique visuals.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3 class="feature-title">Upgrade Your Skins</h3>
+                        <p class="feature-description">Enhance your existing skins with upgrades, giving your heroes an even more impressive appearance.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3 class="feature-title">Battle Effects</h3>
+                        <p class="feature-description">Enhance your battle experience with various effects like Emotes, Recalls, and Eliminations.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3 class="feature-title">Smooth Injection</h3>
+                        <p class="feature-description">Apply skins and effects smoothly without any trouble.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3 class="feature-title">Hero Guides</h3>
+                        <p class="feature-description">Learn how to play better with helpful tips and strategies for each hero.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3 class="feature-title">Easy to Use</h3>
+                        <p class="feature-description">The app is designed to be simple and easy for anyone to navigate.</p>
+                    </div>
+                </div>
+            </div>
+        </section>  
+        <section class="mdc-card__content">
+            <div class="container">
+                <div class="mdc-card">
+                    <h2 class="mdc-card__title">Download Injector Origin</h2>
+                    <p class="mdc-card__content"> Ready to elevate your Mobile Legends: Bang Bang experience? Download Injector Origin now and start unlocking exclusive skins, applying custom effects, and mastering your gameplay!</p>
+                    <a href="https://play.google.com/store/apps/details?id=com.elfilibustero.origin" class="mdc-button mdc-button--raised" id="download-btn" aria-label="Download Injector Origin">Download Now</a>
+                </div>
+            </div>
+        </section>  
+        <section class="mdc-card__content">
+            <div class="container">
+                <div class="mdc-card">
+                    <h2 class="mdc-card__title">Privacy Policy</h2>
+                    <p class="privacy-policy-card-description">
+                        Your privacy is important to us. Learn more about how we handle your data in our <a href="docs/privacy-policy.html" class="privacy-policy-card-link">Privacy Policy</a>.
+                    </p>
+                </div>
+            </div>
+        </section>          
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2 class="section-title">Contact Us</h2>
+                <form id="contact-form" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required aria-required="true" placeholder="John Doe">
+                        <span class="error-message" id="name-error"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required aria-required="true" placeholder="example@example.com">
+                        <span class="error-message" id="email-error"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required aria-required="true" placeholder="Your message here..."></textarea>
+                        <span class="error-message" id="message-error"></span>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                    <div id="form-feedback" class="form-feedback"></div>
+                </form>
+            </div>
         </section>
     </main>
     <footer>
-        <div class="container">
-            <p>© 2024 Injector Origin. All rights reserved. <a href="https://github.com/io-rmdragneel/injector-origin" target="_blank">Visit our GitHub Repository</a></p>
-        </div>
+        &copy; 2024 Injector Origin. All rights reserved.
     </footer>
+
+    <div id="learn-more-modal" class="modal" role="dialog" aria-labelledby="modal-title" aria-describedby="modal-description">
+        <div class="modal-content">
+            <button class="close-btn" aria-label="Close modal">&times;</button>
+            <h2 id="modal-title">About Injector Origin</h2>
+            <p id="modal-description">
+                Step into the next level of Mobile Legends: Bang Bang with Injector Origin, the all-in-one tool designed for players who demand more from their game. Offering a wide array of exclusive hero skins, customizable options, and battle effects, Injector Origin lets you personalize your gameplay like never before.<br><br>
+                But that’s not all—our app goes beyond simple customization. Dive into expertly crafted hero guides filled with strategies, tips, and tricks to help you dominate the battlefield. With a user-friendly interface powered by MaterialYou design, Injector Origin ensures a smooth and intuitive experience, whether you’re injecting skins, applying effects, or exploring new ways to enhance your play.<br><br>
+                Join thousands of players who have already discovered the difference Injector Origin makes. Download now and redefine your MLBB experience with the power and versatility of Injector Origin.
+            </p>
+        </div>
+    </div>    
+
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
