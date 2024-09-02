@@ -1,0 +1,149 @@
+[
+    {
+        "features": [
+            {
+                "description" : "Discover the latest skills and abilities for all your favorite heroes.",
+                "title" : "Updated Hero Skills"
+            },
+            {
+                "description" : "Discover the best builds for each hero, optimized for current meta and gameplay styles. Whether you're a beginner or a pro, these builds will help you maximize your hero's potential.",
+                "title" : "Enhanced Recommended Builds"
+            },
+            {
+                "description" : "Learn advanced strategies for using each hero effectively in different situations. Find out how to use their strengths to your advantage and play to your team’s strengths.",
+                "title" : "Advanced Best Use Strategies"
+            },
+            {
+                "description" : "Be one step ahead of your rivals with the latest counter strategies. Know which heroes to pick against your opponents to gain a tactical edge.",
+                "title" : "Updated Counters"
+            },
+            {
+                "description" : "Compare heroes side-by-side to find the best fit for your playstyle. Analyze stats, skills, and recommended builds to make informed decisions.",
+                "title" : "Detailed Hero Comparisons"
+            },
+            {
+                "description" : "Access exclusive tips from top players and strategists to refine your gameplay and achieve victory more consistently.",
+                "title" : "Exclusive Tips and Tricks"
+            }
+        ],
+        "important_notes": [],
+        "issues": [],
+        "timestamp": 1724859070676,
+        "version": "1.0.25 beta"
+    },{
+        "features": [
+            {
+                "description" : "Devices running Android 10 (SDK 29) and below will now use the old file system for injection process without requiring the Storage Access Framework (SAF). However, additional permission for storage access is needed.",
+                "title" : "Legacy System Support"
+            }
+        ],
+        "important_notes": [
+            "Fixed: Resolved a crash that occurred when loading the script list in the search function.",
+            "Fixed: A crash in IndicatorLayout.selectIndicator in IntroActivity by adding checks to ensure the view is valid before selecting it."
+        ],
+        "issues": [
+            "Some users might experience issues with Shizuku not running or not being detected. This could be related to either our app or Shizuku itself. Ensure Shizuku is installed correctly and has the required permissions. If the issue persists, try checking for updates for both Shizuku and our app.",
+            "Crash related to handling ZIP files. This problem affects the injection process. We are working on a fix and will provide an update soon.",
+            "Crash during injection related to background task management. This issue has been identified and a fix is in progress for a smoother experience in the next update."
+        ],
+        "timestamp": 1723398327472,
+        "version": "1.0.15 beta"
+    },
+    {
+        "features": [],
+        "important_notes": [
+            "Improve performance to minimize lag during the injection process.",
+            "The character limit for feedback has been increased from 500 to 1000, allowing for more detailed and comprehensive responses."
+        ],
+        "issues": [
+            "On some Android versions, the app occasionally has trouble creating files during unzipping, which may impact the injection process."
+        ],
+        "timestamp": 1723110862369,
+        "version": "1.0.12 beta"
+    },
+    {
+        "features": [],
+        "important_notes": [
+            "We’ve improved the injection process to make it faster and more efficient. Enjoy quicker performance and a smoother experience with this update!"
+        ],
+        "issues": [],
+        "timestamp": 1722927090101,
+        "version": "1.0.9 beta"
+    },
+    {
+        "features": [
+            {
+                "description" : "Replace placeholders enclosed in brackets (e.g., [feature/idea], [suggestion]) with selected chip text for easier input.",
+                "title" : "Feedback Improvements"
+            },
+            {
+                "description" : "Improved the process of retrieving data resources for better efficiency and performance.",
+                "title" : "Optimized Data Resource Retrieval Process"
+            }
+        ],
+        "important_notes": [],
+        "issues": [],
+        "timestamp": 1722533328010,
+        "version": "1.0.7 beta"
+    },
+    {
+        "features": [
+            {
+                "description": "Inject multiple scripts in a single operation for efficiency, executing each injection sequentially after the previous one completes.",
+                "title": "Inject sequentially"
+            }
+        ],
+        "important_notes": [
+            "Reporting error in Inject Logger finally works",
+            "Resolves a crash issue in earlier versions of the app that was caused by the FileDownloader component.",
+            "The issue may still occur in the latest version of the app. If you experience any problems, please report them to us for further investigation."
+        ],
+        "issues": [],
+        "timestamp": 1722412854746,
+        "version": "1.0.6 beta"
+    },
+    {
+        "features": [
+            {
+                "description": "Access a variety of visual skins for your favorite Mobile Legends: Bang Bang (MLBB) heroes.",
+                "title": "Unlock Upgrade/Skins"
+            },
+            {
+                "description": "Enhance your visual experience with unique battle effects.",
+                "title": "Unlock Battle Effects"
+            },
+            {
+                "description": "Get detailed information and tips for various heroes to improve your gameplay and strategy.",
+                "title": "Hero Details & Tips"
+            },
+            {
+                "description": "Easily search for your favorite heroes, skins, battle effects, and many more.",
+                "title": "Search Functionality"
+            },
+            {
+                "description": "Provide different themes for the app to match users' preferences.",
+                "title": "Theme Options"
+            },
+            {
+                "description": "Provide comprehensive guides on how to use the app effectively and maximize its features.",
+                "title": "In-App Guides"
+            },
+            {
+                "description": "Implement a feature for users to submit feedback and suggestions directly within the app.",
+                "title": "Feedback and Suggestions"
+            }
+        ],
+        "important_notes": [
+            "This is a beta version. While we strive to provide an stable experience, there may be issues that need to be addressed. Your feedback is invaluable to us during this phase.",
+            "Injector Origin provides a visual skins, battle effects and many more of MLBB but does not impact gameplay mechanics. Use at your own risk as this may violate MLBB’s terms of service.",
+            "Injector Origin is not affiliated with, endorsed by, or sponsored by Moonton. Support the developers by purchasing skins through official channels."
+        ],
+        "issues": [
+            "The app may experience occasional crashes or bugs as we continue to refine the user experience.",
+            "Some skins might not display correctly on all devices or MLBB versions.",
+            "Performance may vary based on device specifications."
+        ],
+        "timestamp": 1721644602069,
+        "version": "1.0.0 beta"
+    }
+]
