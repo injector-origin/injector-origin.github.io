@@ -2,6 +2,27 @@
     {
         "features": [
             {
+                "description" : "Added the ability to replace Preparation/Battle Effects.",
+                "title" : "Preparation/Battle Effects Replacement"
+            },
+            {
+                "description" : "Users can now see their Username after entering their User and Server ID.",
+                "title" : "User Information"
+            }
+        ],
+        "important_notes": [
+            "Rename Effects to Preparations",
+            "Community and social links have been relocated to the \"Settings>About\" section"
+        ],
+        "issues": [
+            "Resolved issues preventing injection on some newer Android versions"
+        ],
+        "timestamp": 1726124412557,
+        "version": "1.1.0"
+    },
+    {
+        "features": [
+            {
                 "description" : "Discover the latest skills and abilities for all your favorite heroes.",
                 "title" : "Updated Hero Skills"
             },
@@ -30,7 +51,8 @@
         "issues": [],
         "timestamp": 1724859070676,
         "version": "1.0.25 beta"
-    },{
+    },
+    {
         "features": [
             {
                 "description" : "Devices running Android 10 (SDK 29) and below will now use the old file system for injection process without requiring the Storage Access Framework (SAF). However, additional permission for storage access is needed.",
